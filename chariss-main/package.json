@@ -1,0 +1,27 @@
+{
+  "name": "charis-platform",
+  "version": "1.0.0",
+  "private": true,
+  "description": "CHARIS - AI-Powered Personalized Gifting Platform",
+  "scripts": {
+    "dev": "npm run dev --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "build": "npm run build --prefix client",
+    "start": "npm start --prefix server",
+    "client:dev": "npm run dev --prefix client",
+    "client:build": "npm run build --prefix client",
+    "server:dev": "npm run dev --prefix server",
+    "server:start": "npm start --prefix server",
+    "seed": "npm run seed --prefix server"
+  },
+  "keywords": [
+    "charis",
+    "ai-gifting",
+    "react",
+    "vite",
+    "express",
+    "mongodb"
+  ],
+  "author": "CHARIS Team",
+  "license": "ISC"
+}
